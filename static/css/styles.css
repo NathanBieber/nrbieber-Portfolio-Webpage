@@ -38,7 +38,7 @@ p {
 
 /* Styling the thumbnail image */
 header img {
-    width: 33.33%; /* Set width to one-third of the container's width */
+    width: 200px; /* Set a specific width for the image */
     height: auto; /* Allows the image to scale proportionally */
     display: block; /* Ensures the image is treated as a block element */
     margin: 20px auto 0; /* Adds some space between the header text and the image */
