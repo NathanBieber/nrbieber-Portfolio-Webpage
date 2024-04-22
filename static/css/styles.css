@@ -35,3 +35,10 @@ h1 {
 p {
     margin-bottom: 20px;
 }
+
+/* Styling the thumbnail image */
+header img {
+    max-width: 100%; /* Ensures the image does not exceed its container's width */
+    height: auto; /* Allows the image to scale proportionally */
+    margin-top: 20px; /* Adds some space between the header text and the image */
+}
