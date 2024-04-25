@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GC0XL80SPB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GC0XL80SPB');
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nathan Bieber - Portfolio</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="/static/css/styles.css">
 </head>
-
 <body>
     <header>
         <h1>Welcome to Nathan Bieber's Portfolio</h1>
-        <img src="static/thumbnail_Nathan3.jpg" alt="Nathan's Thumbnail Image">
+        <img src="/static/images/thumbnail_Nathan3.jpg" alt="Nathan's Thumbnail Image">
     </header>
 
     <main>
@@ -28,5 +35,4 @@
 
     <!-- Your JavaScript scripts or external script links can go here -->
 </body>
-
 </html>
